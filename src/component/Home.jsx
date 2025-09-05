@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <>
       <div className={styles.container}>
+        <div className={styles.rightcontainer}>
+          <img src={logo} alt="" />
+        </div>
         <div className={styles.leftcontainer}>
           <h3>Hey i'm </h3>
           <h4>Dipak Raj Pandey</h4>
@@ -22,9 +25,6 @@ export default function Home() {
               apps that make an impact.
             </p>
           </div>
-        </div>
-        <div className={styles.rightcontainer}>
-          <img src={logo} alt="" />
         </div>
       </div>
     </>
