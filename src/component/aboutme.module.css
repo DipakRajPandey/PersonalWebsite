@@ -62,3 +62,39 @@
     transform: translateX(-50%);
   }
 }
+
+/*  */
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 24px;
+  }
+  .container p {
+    font-size: 15px;
+  }
+  .slider {
+    gap: 20px;
+    animation-duration: 15s; /* faster scroll for smaller screens */
+  }
+  .slider img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 10px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .container p {
+    font-size: 14px;
+  }
+  .slider {
+    gap: 15px;
+    animation-duration: 12s;
+  }
+  .slider img {
+    height: 50px;
+  }
+}

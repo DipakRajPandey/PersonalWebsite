@@ -44,3 +44,30 @@ a {
   color: #fff;
   font-size: 14px;
 }
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 24px;
+  }
+  .container li {
+    font-size: 16px;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 10px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .container li {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
