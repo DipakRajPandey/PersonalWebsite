@@ -11,7 +11,6 @@ function App() {
       <AboutMe></AboutMe>
       <ProjectSection></ProjectSection>
       <Contact></Contact>
-      
     </>
   );
 }
