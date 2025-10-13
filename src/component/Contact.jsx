@@ -13,7 +13,7 @@ export default function Contact() {
             <h3 className="font-semibold text-black text-lg">Gmail</h3>
             <a
               href="mailto:dipakrajpandey31@gmail.com"
-              className="text-black/90 hover:text-yellow-200 underline"
+              className=" text-black/90 hover:text-yellow-200 no-underline"
             >
               dipakrajpandey31@gmail.com
             </a>
@@ -27,7 +27,7 @@ export default function Contact() {
             <h3 className="font-semibold text-black text-lg">Phone</h3>
             <a
               href="tel:+977-9862460349"
-              className="text-black/90 hover:text-yellow-200 underline"
+              className="text-black/90 hover:text-yellow-200 no-underline"
             >
               +977-9862460349
             </a>
@@ -43,7 +43,7 @@ export default function Contact() {
               href="https://github.com/DipakRajPandey"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/90 hover:text-yellow-200 underline"
+              className="text-black/90 hover:text-yellow-200 no-underline"
             >
               github.com/DipakRajPandey
             </a>
@@ -59,7 +59,7 @@ export default function Contact() {
               href="https://www.linkedin.com/in/dipak-raj-pandey-19224a239/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/90 hover:text-yellow-200 underline"
+              className="text-black/90 hover:text-yellow-200 no-underline"
             >
               linkedin.com/in/dipak-raj-pandey
             </a>

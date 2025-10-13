@@ -66,7 +66,7 @@ export default function ProjectSection() {
                     href={project.demoLink}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                    className="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300 no-underline"
                   >
                     👁️ Demo
                   </a>
@@ -75,7 +75,7 @@ export default function ProjectSection() {
                   href={project.githubLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-900 transition-colors duration-300"
+                  className="inline-block bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-900 transition-colors duration-300 no-underline"
                 >
                   GitHub →
                 </a>
@@ -92,7 +92,7 @@ export default function ProjectSection() {
             href="https://github.com/DipakRajPandey"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-1 text-blue-600 font-semibold transition-all duration-300 hover:text-blue-700"
+            className="group inline-flex items-center gap-1 text-blue-600 font-semibold transition-all duration-300 hover:text-blue-700 no-underline"
           >
             GitHub
             <span className="inline-block transform transition-transform duration-300 group-hover:translate-x-2">
