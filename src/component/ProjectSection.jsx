@@ -1,5 +1,6 @@
 import mart from "../assets/images/mart.png";
-import sms from "../assets/images/sms.png";
+import sms2 from "../assets/images/sms2.png";
+import smsdemo from "../assets/Videos/SMSProject.mp4"
 
 export default function ProjectSection() {
   const projects = [
@@ -16,11 +17,11 @@ export default function ProjectSection() {
     {
       id: 2,
       title: "Student Management System | August 2024 |",
-      image: sms,
+      image: sms2,
       tech: "JSE, Java Swing, MySQL",
       description:
         "Developed a Student Management System using JSE, Java Swing, and MySQL. Features include adding, updating, deleting, and viewing student records. Utilized Java Swing for GUI development and JDBC for database integration, reinforcing skills in desktop app development.",
-      demoLink: "abc",
+      demoLink:smsdemo,
       githubLink: "https://github.com/DipakRajPandey/StudentManagementStsytem",
     },
   ];
