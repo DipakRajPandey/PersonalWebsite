@@ -5,7 +5,15 @@ import smsdemo from "../assets/Videos/SMSProject.mp4"
 export default function ProjectSection() {
   const projects = [
     {
-      id: 1,
+      id:1,
+      title:"KinmelHub (Multi-Vendor E-commerce Platform)",
+      image:"",
+      tech:"Spring Boot,HibernatORM,React,MySQL,Cloudinary",
+      description:"Built a scalable multi-vendor e-commerce platform enabling vendor product management, secure authentication, product reviews, cart, and payment integration. Implemented REST APIs using Spring Boot and MySQL, focusing on security and performance optimization.",
+      demoLink:"abc",
+      githubLink:"https://github.com/DipakRajPandey/KinMelHub.git"
+    },{
+      id: 2,
       title: "Hamro Mart (E-commerce Platform) | February 2025 |",
       image: mart,
       tech: "Spring Boot, JSE, MySQL",
@@ -15,7 +23,7 @@ export default function ProjectSection() {
       githubLink: "https://github.com/DipakRajPandey/Hamro_mart",
     },
     {
-      id: 2,
+      id: 3,
       title: "Student Management System | August 2024 |",
       image: sms2,
       tech: "JSE, Java Swing, MySQL",
