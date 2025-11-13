@@ -10,7 +10,7 @@ export default function ProjectSection() {
       image:"",
       tech:"Spring Boot,HibernatORM,React,MySQL,Cloudinary",
       description:"Built a scalable multi-vendor e-commerce platform enabling vendor product management, secure authentication, product reviews, cart, and payment integration. Implemented REST APIs using Spring Boot and MySQL, focusing on security and performance optimization.",
-      demoLink:"abc",
+      demoLink:"https://spectacular-begonia-0f16e3.netlify.app/",
       githubLink:"https://github.com/DipakRajPandey/KinMelHub.git"
     },{
       id: 2,
