@@ -1,6 +1,6 @@
 import mart from "../assets/images/mart.png";
 import sms2 from "../assets/images/sms2.png";
-import kinmel from "../assets/images/KinMelHub.png"
+import kinmel from "../assets/images/KinMelHUb.png"
 import smsdemo from "../assets/Videos/SMSProject.mp4"
 
 export default function ProjectSection() {
