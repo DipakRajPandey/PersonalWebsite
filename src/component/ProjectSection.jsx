@@ -1,14 +1,14 @@
 import mart from "../assets/images/mart.png";
 import sms2 from "../assets/images/sms2.png";
 import smsdemo from "../assets/Videos/SMSProject.mp4"
-import kinMel from "../assets/images/KInMelHub.png"
+import kinMelHub from "../assets/images/KinMelHub.png"
 
 export default function ProjectSection() {
   const projects = [
     {
       id:1,
       title:"KinmelHub (Multi-Vendor E-commerce Platform)",
-      image:kinMel,
+      image:kinMelHub,
       tech:"Spring Boot,HibernatORM,React,MySQL,Cloudinary",
       description:"Built a scalable multi-vendor e-commerce platform enabling vendor product management, secure authentication, product reviews, cart, and payment integration. Implemented REST APIs using Spring Boot and MySQL, focusing on security and performance optimization.",
       demoLink:"https://spectacular-begonia-0f16e3.netlify.app/",
