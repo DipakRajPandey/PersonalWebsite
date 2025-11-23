@@ -1,7 +1,7 @@
 import mart from "../assets/images/mart.png";
 import sms2 from "../assets/images/sms2.png";
 import smsdemo from "../assets/Videos/SMSProject.mp4"
-import kinMel from "../assets/images/KinMelHUb.png"
+import kinMel from "../assets/images/KInMelHub.png"
 
 export default function ProjectSection() {
   const projects = [
